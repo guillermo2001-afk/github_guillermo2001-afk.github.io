@@ -1,0 +1,105 @@
+body{
+background-image:url("/Images/myBackground.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+
+p{
+ font-family: "Segoe UI", Segoe UI, 'Times New Roman', Times, serif;
+}
+h1, h2, h3, h4, h5, h6
+{
+font-family: "Segoe UI", Segoe UI, 'Times New Roman', Times, serif;  
+color:white;
+text-align: center;
+
+   
+}
+.aboutme 
+{
+    float: center;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    color:white;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    margin-left: 20%;
+}
+#aboutme2 
+{
+    float: center;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    color:white;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    margin-left: 20%;
+
+}
+
+#banner{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px; 
+}
+#navigation{
+    float: center;
+    width: 1502px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mainbox{
+    width:36%;
+    margin: 5% auto;
+    float:left;
+    padding: 30% auto;
+}
+
+.aboutmepic{
+    float: right;
+    border-radius: 10px;
+    padding:20%;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    color:white;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+#mollysample{
+    float: right;
+    border-radius: 10px;
+    padding:20%;
+    margin-top: 50px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    color:white;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+#gallery{
+    float: right;
+    border-radius: 10px;
+display: flex;
+flex-direction:row;
+position: relative;    
+}
+
+#gallery2{
+    float: right;
+    border-radius: 10px;
+display: flex;
+flex-direction:row;
+position: relative;  
+margin-bottom: 100px; 
+    margin-right: 100px;
+}
