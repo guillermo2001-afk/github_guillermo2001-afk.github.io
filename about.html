@@ -3,25 +3,36 @@
     <head>
         <title>Guillermo's Portfolio - About Guillermo Page</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="/HTML/style.css">
     </head>
     <body>
-    <img src = "/Images/csc106_banner.jpg">
-    <h1>About Me</h1>
-    <table width=800 bgcolor = "#181D85">
-<tr>
-<td align="center"> <a href="index.html"><img src = "/Images/homebutton.png"></a> </td>
-<td align="center"> <a href="about.html"><img src = "/Images/aboutmebutton.png"></a> </td>
-<td align="center"> <a href="js.html"><img src = "/Images/javascriptsbutton.png"></a></td>
-</tr>
-</table>
-        <p> My full name is Guillermo Jose Hernandez-Nieves and I am a Film Major here at <a href = "https://www.uri.edu/">URI</a> who is minoring in Web Programming.<br>
+        <img id= "banner" src = "/Images/banner.png">
+    
+    <table id="navigation" width=1520 bgcolor = "#B82601">
+        <tr>
+        <td align="center"> <a href="index.html"><img src = "/Images/home.png"></a> </td>
+        <td align="center"> <a href="about.html"><img src = "/Images/aboutme.png"></a> </td>
+        <td align="center"> <a href="js.html"><img src = "/Images/javascripts.png"></a></td>
+        <td align="center"> <a href="apps.html"><img src = "/Images/apps.png"></a></td>
+        </tr>
+        </table>
+        <h1>About Me</h1>
+        <hr>
+        <div class="mainbox">
+        <p id="aboutme2"> My full name is Guillermo Jose Hernandez-Nieves and I am a Film Major here at <a href = "https://www.uri.edu/">URI</a> who is minoring in Web Programming.<br>
         I was born in Puerto Rico and moved here to Rhode Island back in 2016. It was a big move but I adapted fast and I've enjoyed living here ever since. <br>
         When it comes to my hobbies, I am interested in photography, reading, filmmaking, and manga.<br>
         <br>
         In the future, I aspire to be a jack of all trades within the film industry. Whether it be audio, video editing, lighting, or anything else, I hope to create products I can be proud of.  
         </p>
-
-        <img src = "/Images/IMG_6123.jpg" alt="Picture of a Puerto Rican beach and cliffside" width="300" height="200">  
-        <img src = "/Images/IMG_6263.jpg" alt="A boat sailing in the ocean with the sunset behind it" width="300" height="200">
-    </body>
+    </div>
+    <div id="gallery">
+        <img class="aboutmepic" src = "/Images/IMG_6123.jpg" alt="Picture of a Puerto Rican beach and cliffside" width="300" height="200">  
+        <img class="aboutmepic" src = "/Images/IMG_6263.jpg" alt="A boat sailing in the ocean with the sunset behind it" width="300" height="200">
+        </div>
+     <div id="gallery2">   
+        <img class="aboutmepic" src = "/Images/selfie.jpg" alt="selfie of me outside" width="200" height="250">  
+        <img class="aboutmepic" src = "/Images/selfie2.jpg" alt="selfie of me in a car" width="200" height="200">
+    </div>
+</body>
 </html>
