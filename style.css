@@ -60,6 +60,13 @@ text-align: center;
     padding: 30% auto;
 }
 
+.mainbox2{
+    width:36%;
+    margin: 5% auto;
+    float:center;
+    padding: 30% auto;
+}
+
 .aboutmepic{
     float: right;
     border-radius: 10px;
